@@ -7,6 +7,7 @@ const origenes = [
 ];
 
 // Ingresar nombre de empresa.
+
 let empresa = prompt("Ingrese el nombre de su empresa");
 console.log(empresa);
 
@@ -74,9 +75,11 @@ function calcularCostoLcl(origen) {
   }
 
   return costoTotal;
+
 }
 
-// Función cotizarFlete 
+// Función cotizarFlete
+ 
 function cotizarFlete(calcularCosto) {
   let tipoCarga = prompt("Ingrese tipo de contenedor: FCL / LCL");
   let origen;
